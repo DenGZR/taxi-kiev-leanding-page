@@ -1,0 +1,23 @@
+@import "../theme/index";
+
+.main-title{
+  text-transform: uppercase;
+  font-size: @font-size-title;
+}
+
+.main-btn {
+  background: @color-bg-btn;
+  color: @color-bg-txt;
+  text-transform: uppercase;
+  border-radius: 0;
+  box-shadow: 0px 0px 25px 4px @color-bg-btn;
+  padding: 15px 50px;
+
+}
+
+.big-btn {
+  margin: 50px 0 10px 0;
+  .btn {
+    .main-btn;
+  }
+}

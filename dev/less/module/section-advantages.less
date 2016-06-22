@@ -1,0 +1,32 @@
+@import "../mixin/index";
+@import "../theme/index";
+
+.advantages {
+
+  .left-side-bg {
+    background: url("../images/advantages-admin-bg-1.png") no-repeat;
+    background-size: contain;
+    margin-top: 20px;
+    height: 70vh;
+  }
+
+  .advantages-title {
+    .main-title;
+    text-align: right;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  .advantages-text {
+    font-size: @font-size-big;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+
+}
+@media (max-width: 767px) {
+  .advantages {
+    .advantages-title {
+      text-align: center;
+    }
+  }
+}
